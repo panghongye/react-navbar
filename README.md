@@ -1,7 +1,9 @@
 
 # Dynamic ReactJS Navigation Bar
 Bootstrap Navigation bar rebuilt with React components. Written in ECMAScript 6 (ES6).
-No external stylesheets! This navigation bar is built with [Radium](http://projects.formidablelabs.com/radium/) inline styling. 
+No external stylesheets! This navigation bar is built with [Radium](http://projects.formidablelabs.com/radium/) inline styling.
+
+This is a fork of https://github.com/haridusenadeera/react-navbar adding onClick handlers to items.
 
 ### Desktop View
 

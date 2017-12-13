@@ -1,5 +1,5 @@
 {
-  "name": "react-bootstrap-navbar",
+  "name": "lm-react-bootstrap-navbar",
   "version": "1.1.0",
   "description": "React bootstrap navigation bar",
   "main": "./lib/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haridusenadeera/react-navbar.git"
+    "url": "git+https://github.com/leakingmemory/react-navbar.git"
   },
-  "author": "Haridu Senadeera",
+  "author": "Jan-Espen Oversand",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haridusenadeera/react-navbar/issues"
+    "url": "https://github.com/leakingmemory/react-navbar/issues"
   },
-  "homepage": "https://github.com/haridusenadeera/react-navbar",
+  "homepage": "https://github.com/leakingmemory/react-navbar",
   "devDependencies": {
     "babel": "^5.8.34",
     "babel-core": "^5.6.7",
