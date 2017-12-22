@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar';
 import NavItem from './components/NavItem';
 import NavbarHeader from './components/NavbarHeader';
@@ -48,4 +49,4 @@ const navbarInstance = (
     </Navbar>
 );
 
-React.render(navbarInstance, document.getElementById('navigation_bar'));
+ReactDOM.render(navbarInstance, document.getElementById('navigation_bar'));
