@@ -99,14 +99,14 @@ export default class NavbarItems extends React.Component {
         const defStyle = this.getStyles();
         const {style} = this.props;
         return (
-            <div ref ="collapse" style={[defStyle.collapse]}>
-                <span style={[defStyle.pseudoBefore]} />
-                    <ul ref="navitems" style={[defStyle.base, style && style]}>
-                        <span style={[defStyle.pseudoBefore]} />
+            <div ref ="collapse" style={{...defStyle.collapse}}>
+                <span style={{...defStyle.pseudoBefore}} />
+                    <ul ref="navitems" style={{...defStyle.base,... style && style}}>
+                        <span style={{...defStyle.pseudoBefore}} />
                           {this.renderChildren()}
-                        <span style={[defStyle.pseudoAfter]} />
+                        <span style={{...defStyle.pseudoAfter}} />
                     </ul>
-                <span style={[defStyle.pseudoAfter]} />
+                <span style={{...defStyle.pseudoAfter}} />
             </div>
         );
     }
