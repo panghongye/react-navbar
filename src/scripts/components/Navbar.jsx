@@ -5,11 +5,11 @@ import Radium from 'radium';
 export default class Navbar extends React.Component {
     displayName = 'Navigation bar'
 
-    static propTypes = {
-        navStyle:  React.PropTypes.object,
-        contStyle: React.PropTypes.object,
-        children:  React.PropTypes.node
-    }
+    // static propTypes = {
+    //     navStyle:  React.PropTypes.object,
+    //     contStyle: React.PropTypes.object,
+    //     children:  React.PropTypes.node
+    // }
 
     state = {
       collapseIn: false

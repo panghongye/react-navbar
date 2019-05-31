@@ -5,13 +5,13 @@ import Radium from 'radium';
 export default class NavItem extends React.Component {
     displayName = 'Navigation bar item'
 
-    static propTypes = {
-        onClick: React.PropTypes.func,
-        link:  React.PropTypes.string,
-        title: React.PropTypes.string,
-        style: React.PropTypes.object,
-        itemStyle: React.PropTypes.object
-    }
+    // static propTypes = {
+    //     onClick: React.PropTypes.func,
+    //     link:  React.PropTypes.string,
+    //     title: React.PropTypes.string,
+    //     style: React.PropTypes.object,
+    //     itemStyle: React.PropTypes.object
+    // }
 
     getStyles = () => {
         return {

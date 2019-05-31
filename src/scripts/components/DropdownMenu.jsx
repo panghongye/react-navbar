@@ -5,12 +5,12 @@ import Radium from 'radium';
 export default class DropdownMenu extends React.Component {
     displayName = 'Dropdown menu items'
 
-    static propTypes = {
-        menuItems: React.PropTypes.array,
-        style: React.PropTypes.object,
-        menuItemStyle: React.PropTypes.object,
-        open: React.PropTypes.bool
-    }
+    // static propTypes = {
+    //     menuItems: React.PropTypes.array,
+    //     style: React.PropTypes.object,
+    //     menuItemStyle: React.PropTypes.object,
+    //     open: React.PropTypes.bool
+    // }
 
     getStyles = () => {
         const {open, active} = this.props;

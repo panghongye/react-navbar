@@ -5,10 +5,10 @@ import Radium from 'radium';
 export default class NavbarItems extends React.Component {
     displayName = 'Navigation list of items'
 
-    static propTypes = {
-        style: React.PropTypes.object,
-        children: React.PropTypes.node
-    }
+    // static propTypes = {
+    //     style: React.PropTypes.object,
+    //     children: React.PropTypes.node
+    // }
 
     getStyles = () => {
         let styles = {
